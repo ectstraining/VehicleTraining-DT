@@ -5,8 +5,10 @@ public class Main {
 
         System.out.println("Enter plate number:");
         String plateno = sc.nextLine();
-
-        System.out.println("Plate number is: " + plateno);
+        System.out.println("Enter the Driver's name:");
+        String Name = sc.nextLine();
+        System.out.println("Driver's is: " + Name);
+        System.out.println("The plate number is: " + plateno);
 
     }
 }
